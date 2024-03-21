@@ -1,11 +1,11 @@
 # Complex Numerical Derivatives
 
-This program finds a numerical derivative for the cosine function in C at a point.
+This program finds a numerical derivative for the cosine function at a point.
 
 ## Challenge Posed
 
-*"Something we’ll deal with a lot is the concept of numerical algorithms. To get your hands dirty, see if you can implement the numerical derivative double f(double x) of a function double F(double x).
-Implement this with an example F for the function that you use for this exercise. A good primary choice for F would be a function for which you know the derivative, such as sin, cos, or sqrt. This allows you to check your results for correctness."*
+    "Something we’ll deal with a lot is the concept of numerical algorithms. To get your hands dirty, see if you can implement the numerical derivative double f(double x) of a function double F(double x).
+    Implement this with an example F for the function that you use for this exercise. A good primary choice for F would be a function for which you know the derivative, such as sin, cos, or sqrt. This allows you to check your results for correctness."
 
 ## Description
 

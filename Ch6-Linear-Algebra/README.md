@@ -1,8 +1,12 @@
 # Linear Algebra
 
-## Challenge Posed
+This programme implements a computationally efficient algorithm for finding matrix inverses, using Gaussain elimination.
 
-This programme is a solution to Challenge 6 of Modern C by Jens Gustedt, which is posed as:
+Concretely, the programme performs Gaussian Elimination row operations on a matrix (and its corresponding elementary matrix), until the matrix is in row reduced upper echelon form.
+
+If that form is the identity matrix, the program will also have found the matrix inverse, having performed the same Gaussian Elimination steps on the elementary matrix.
+
+## Challenge Posed
 
     "Some of the most important problems for which arrays are used stem from linear algebra.
     Can you write functions that do vector-to-vector or matrix-to-vector products at this point?

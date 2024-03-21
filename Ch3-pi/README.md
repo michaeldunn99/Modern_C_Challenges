@@ -2,6 +2,11 @@
 
 This program approximates the value of pi to a given number of decimal places using the Gauss-Legendre approximation.
 
+## Challenge Posed
+
+      Compute the N first decimal places of π.
+
+
 ## Prerequisites
 
 - C compiler (e.g., GCC)
