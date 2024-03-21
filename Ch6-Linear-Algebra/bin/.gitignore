@@ -1,0 +1,4 @@
+# Ignore everything except the obj directory (so specifically ignore the factorize binary)
+*
+!.gitignore
+!obj/
