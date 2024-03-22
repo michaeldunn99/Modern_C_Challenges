@@ -1,7 +1,14 @@
 #include "prime-fac.h"
 
+/* This file contains the main driving functions that the program uses to calculate prime factors. In particular it contains:
+*   - The function small_prime_fac which calculates the smallest prime factor of a given number
+*   - The recursive function prime_fac_rec which calculates the prime factorization of a given number (by repeatedly calling small_prime_fac)
+*   - The function prime_fac which is a wrapper for the recursive function prime_fac_rec
+ */
+
+
 /**
- * Calculates the smallest prime factor of a given number.
+ * Calculates the smallest prime factor of a given number (starting from a given prime number).
  * 
  * @param n The number to find the smallest prime factor of.
  * @param prev_prime The previous prime number to start checking from.
@@ -33,20 +40,6 @@ size_t small_prime_fac(size_t n, size_t prev_prime) {
 }
 
 
-/**
- * Calculates the prime factorization of a given number - this is a wrapper for the recursive function prime_fac_rec
- *
- * @param n The number to be factorized.
- * @param array_size The size of the factor_array.
- * @param factor_array The 2D array to store the prime factors and their exponents.
- */
-void prime_fac(size_t n, size_t array_size, size_t factor_array[array_size][2]) {
-
-    size_t diff_factors = 0;
-    size_t current_n = n;
-    size_t previous_fac = 0;
-    prime_fac_rec(diff_factors, current_n, previous_fac, array_size, factor_array);
-}
 
 /**
  * Recursive function to calculate the prime factorization of a number.
@@ -86,6 +79,25 @@ int prime_fac_rec(size_t diff_factors, size_t current_n, size_t previous_fac, si
         return 0;
     }
 }
+
+
+
+/**
+ * Calculates the prime factorization of a given number - this is a wrapper for the recursive function prime_fac_rec
+ *
+ * @param n The number to be factorized.
+ * @param array_size The size of the factor_array.
+ * @param factor_array The 2D array to store the prime factors and their exponents.
+ */
+void prime_fac(size_t n, size_t array_size, size_t factor_array[array_size][2]) {
+
+    size_t diff_factors = 0;
+    size_t current_n = n;
+    size_t previous_fac = 0;
+    prime_fac_rec(diff_factors, current_n, previous_fac, array_size, factor_array);
+}
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 The folder comprises solutions to the first 9 'Challenges' from the textbook 'Modern C' (*Gustedt, J. (2019). Modern C. Manning Publications.*)
 
-A summary of each of the challenges is listed below  in reverse order (including the question posed in the textbook, in *italics*), so as to describe the more involved challenges first. 
+A summary of each of the challenges is listed below  in reverse order (including the question posed in the textbook in *italics*).
 
 As you will see, each Challenge sub-folder has its own README file which explains the solution in detail, as well as explaining the source code and providing instructions on how to produce and run the executable for that Challenge.
 

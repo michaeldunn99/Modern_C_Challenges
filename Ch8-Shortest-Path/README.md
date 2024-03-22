@@ -22,8 +22,6 @@ The adaptation was to add another component (two further vertices which are conn
 
 ![Image of Graphs](./img/IMG_0725.jpg)
 
-Like CLRS, the search here is conducted with vertex 1 as the original source vertex for the first connected component.
-
 ## Description of Implementation
 
 The main driver of this program is the  functions:
