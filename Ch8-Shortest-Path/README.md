@@ -9,7 +9,7 @@ The program comprises a solution to Challenge 8 of *Gustedt, J. (2019). Modern C
 ## Challenge Posed
 
 
-*"Extend the idea of an adjacency matrix of a graph G to a distance matrix D that holds the distance when going from point i to point j. Mark the absence of**direct arc with a very large value, such as SIZE_MAX.*
+*"Extend the idea of an adjacency matrix of a graph G to a distance matrix D that holds the distance when going from point i to point j. Mark the absence of a direct arc with a very large value, such as SIZE_MAX.*
 *Can you find the shortest path between two nodes x and y given as an input?"*
 
 ## Background

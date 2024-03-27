@@ -1,6 +1,6 @@
 # Complex Numerical Derivatives
 
-This program finds a numerical derivative for the cosine function at a point.
+This program finds an approximate numerical derivative for the cosine function at a point.
 
 ## Challenge Posed
 

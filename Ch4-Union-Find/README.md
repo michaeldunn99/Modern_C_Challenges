@@ -1,10 +1,10 @@
 # Union-Find
 
-This project implements a union-find algorithm using an index table in C. 
+This program implements a union-find algorithm using an index table in C. 
 
-Concretely, the program creates an index table of a size chosen by the user via a command line argument.
+In particular, the program creates an index table of a size chosen by the user via a command line argument.
 
-The program then proceeds to perform a prescribed number of operations on the set, in order to demonstrate the union find algorithm in action.
+The program then proceeds to perform a number of prescribed  operations on the set, in order to demonstrate the union find algorithm in action. The program prints a description of each of these operations and its result on the index table.
 
 
 ## Challenge Posed

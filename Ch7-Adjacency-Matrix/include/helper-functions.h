@@ -11,4 +11,4 @@ void print_forest_graph(exploration_forest* explor_forest);
 void print_graph(bool** graph);
 void print_result(bool** graph, exploration_forest* my_forest, spanning_tree* current_spanning_tree, breadth_queue* curr_queue);
 
-#endif
+#endif        

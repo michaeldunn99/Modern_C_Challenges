@@ -1,6 +1,6 @@
 # Linear Algebra
 
-This programme implements a computationally efficient algorithm for finding matrix inverses, using Gaussain elimination.
+This program implements a computationally efficient algorithm for finding matrix inverses, using Gaussain elimination.
 
 Concretely, the programme performs Gaussian Elimination row operations on a matrix (and its corresponding elementary matrix), until the matrix is in row reduced upper echelon form.
 

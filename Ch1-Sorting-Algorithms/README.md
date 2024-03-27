@@ -1,6 +1,6 @@
 # Sorting Algorithms in C
 
-"This program implements the Merge Sort and Quick Sort algorithms in C
+This program implements the Merge Sort and Quick Sort algorithms in C
 
 ## Challenge Posed
     Can you do
