@@ -74,9 +74,9 @@ int main(void) {
 
 
 double Q2_matrix_1_stat[Q2_MATRIX_1_HEIGHT][Q2_MATRIX_1_WIDTH] = {
-    {2, 4,-3, 0},
-    {1,-4, 3, 0},
-    {3,-5, 2, 1},
+    {2,  4, -3, 0},
+    {1, -4, -8, 0},
+    {3, -5,  2, 1},
 };
 
 double **Q2_matrix_1 = malloc(sizeof(double*)*Q2_MATRIX_1_HEIGHT);
